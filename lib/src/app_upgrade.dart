@@ -49,7 +49,7 @@ class AppUpgrade {
   ///
   static appUpgrade(
     BuildContext context,
-    Future<AppUpgradeInfo> future, {
+    Future<AppUpgradeInfo?> future, {
     TextStyle? titleStyle,
     TextStyle? contentStyle,
     String? cancelText,
